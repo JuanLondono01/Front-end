@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: lightblue;
+}
+
+.formulario-sing-in{
+    text-align: center;
+    padding: 2rem;
+    margin: 5vh 50vh 4rem 50vh;
+    padding: 3rem 5rem 3rem 5rem;
+    border-radius:4rem;
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+}
+
+h2{
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img-sect{
+    height: 100px;
+    width: 100px;
+    margin: 2rem 2rem 2rem 11.5rem;
+    background-image: url(./imgs/3177440.png);
+    background-size: contain;
+}
+
+.name, .pass{
+    margin: .5rem;
+    width: 25rem;
+    height: 3rem;
+    border: none;
+    border-radius: 25px ;
+    text-align: center;
+    font-size: large;
+    background-color: #ebe7e7;
+    margin-left: 2rem;
+}
+
+.name::placeholder{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 510;
+    text-align: center;
+}
+
+.pass::placeholder{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 510;
+    content: "\f007";
+}
+
+
+
+.view-pass{
+    cursor: pointer;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 62%;
+    left: 78%;
+}
+
+.re-me{
+    margin-right: 8rem;
+}
+
+
+.sing-in{
+    height: 3rem;
+    width: 12rem;
+    border: none;
+    background-color: lightblue;
+    border-radius: 25px;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+.sing, .reg{
+    margin-right: 4rem;
+    font-size: 1.7rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.reg{   
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.reg-icon{
+    opacity: 0.2;
+    cursor:pointer;
+}
+
+.sing-icon{
+    cursor: pointer;
+}
+
+.form-top i{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: .5rem ;
+}
+
+
+.formulario-register{
+    text-align: center;
+    padding: 2rem;
+    margin: 5vh 50vh 4rem 50vh;
+    padding: 3rem 5rem 3rem 5rem;
+    border-radius:4rem;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.register{
+    height: 3rem;
+    width: 12rem;
+    border: none;
+    background-color: lightblue;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    margin-left: -1.9rem;
+}
+
+.sing2, .reg2{
+    margin-right: 4rem;
+    font-size: 1.7rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.sing2{   
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.sing-icon2{
+    opacity: 0.2;
+    cursor:pointer;
+}
+
+.sing-icon{
+    cursor: pointer;
+}
+
+#name2, #pass2, #confirm-pass2{
+    margin-left: -.1rem;
+    border: none;
+    border-radius: 25px ;
+    text-align: center;
+    font-size: large;
+    background-color: #ebe7e7;
+
+}
+
+.view-pass2{
+    cursor: pointer;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 72%;
+    left: 75%;
+}
